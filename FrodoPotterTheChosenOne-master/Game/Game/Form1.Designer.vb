@@ -93,8 +93,8 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(1079, 643)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox2)
-        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.PictureBox3)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Name = "Form1"
         Me.Text = "Form1"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

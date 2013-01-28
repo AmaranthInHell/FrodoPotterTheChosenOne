@@ -39,6 +39,9 @@ Public Class Form1
                 Timer1.Enabled = False
             End If
         End If
+        If Asc(e.KeyChar) = 102 Then
+            PictureBox3.Left = PictureBox1.Left
+        End If
     End Sub
 
 
@@ -54,10 +57,6 @@ Public Class Form1
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         Timer2.Enabled = True
-
-    End Sub
-
-    Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
 
     End Sub
 End Class

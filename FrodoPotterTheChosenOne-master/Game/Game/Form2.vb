@@ -1,7 +1,11 @@
-﻿Public Class Form2
+﻿Option Explicit On
+Imports System.Threading
+Imports System.Drawing
+Public Class Form2
 
- 
-    Private Sub Form2_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
+
+    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
 
     End Sub
 End Class

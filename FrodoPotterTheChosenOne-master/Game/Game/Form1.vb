@@ -18,6 +18,7 @@ Public Class Form1
     Dim isAPressed As Boolean
     Dim isDPressed As Boolean
     Dim isRPressed As Boolean
+    Dim isESCpressed As Boolean
     Dim villianGoingUp As Boolean
     '(0) - W (1) - S (2) - A (3)-D
     Dim keyState() As Boolean = New Boolean() {isWPressed, isSPressed, isAPressed, isDPressed, isRPressed}
@@ -32,6 +33,8 @@ Public Class Form1
             isDPressed = True
         ElseIf e.KeyCode = Keys.R Then
             isRPressed = True
+        ElseIf e.KeyCode = Keys.Escape Then
+            isESCpressed = True
         End If
     End Sub
 
@@ -59,6 +62,8 @@ Public Class Form1
             MoveHeroRight()
         ElseIf isRPressed Then
             ShootArrow()
+        ElseIf isESCpressed Then
+            Form2.ShowDialog()
         End If
     End Sub
     Sub MoveHeroUp()
@@ -142,9 +147,17 @@ Public Class Form1
         MoveVillian()
         MoveBolt()
     End Sub
+    Private Sub Form1_KeyPress(sender As Object, e As KeyPressEventArgs) Handles Me.KeyPress
+
+
+
+
+
+    End Sub
     Private Sub Form1_FormClosed(ByVal sender As System.Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles MyBase.FormClosed
         T1.Abort()
     End Sub
+
 
     '        If mana > 0 Then
     '            Timer1.Enabled = True
@@ -172,4 +185,11 @@ Public Class Form1
     '                FTW.Visible = False
     '                FO.Visible = False
     '                FN.Visible = True
+
+
+
+
+
+
+
 End Class

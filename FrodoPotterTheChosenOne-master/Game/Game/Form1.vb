@@ -49,6 +49,8 @@ Public Class Form1
             isDPressed = False
         ElseIf e.KeyCode = Keys.R Then
             isRPressed = False
+        ElseIf e.KeyCode = Keys.Escape Then
+            isESCpressed = True
         End If
     End Sub
     Sub MoveMyHero()
@@ -63,7 +65,10 @@ Public Class Form1
         ElseIf isRPressed Then
             ShootArrow()
         ElseIf isESCpressed Then
-            Form2.ShowDialog()
+            Me.Visible = False
+            Form2.Visible = True
+        ElseIf Form2.Visible = False Then
+            Me.Visible = True
         End If
     End Sub
     Sub MoveHeroUp()

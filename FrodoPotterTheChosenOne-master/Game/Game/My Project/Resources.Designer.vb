@@ -83,9 +83,49 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property Back_to_main_menu__edited() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Back to main menu _edited", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Controllers() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Controllers", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Controls() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Controls", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Controls_edited() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Controls_edited", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Controls1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Controls1", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -113,9 +153,39 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property quit_edited() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("quit_edited", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Restart() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Restart", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Restart_edited() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Restart_edited", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Resume_Edited() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Resume_Edited", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

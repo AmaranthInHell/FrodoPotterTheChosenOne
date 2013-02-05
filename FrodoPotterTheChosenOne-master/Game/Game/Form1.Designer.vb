@@ -49,6 +49,7 @@ Partial Class Form1
         Me.OFF = New System.Windows.Forms.PictureBox()
         Me.FrostBolt = New System.Windows.Forms.PictureBox()
         Me.PictureVillian = New System.Windows.Forms.PictureBox()
+        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureHero, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.FireArrow, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.FF, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -85,6 +86,9 @@ Partial Class Form1
         Me.PictureHero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureHero.TabIndex = 0
         Me.PictureHero.TabStop = False
+        '
+        'Timer1
+        '
         '
         'FireArrow
         '
@@ -427,5 +431,6 @@ Partial Class Form1
     Friend WithEvents OFF As System.Windows.Forms.PictureBox
     Friend WithEvents FrostBolt As System.Windows.Forms.PictureBox
     Friend WithEvents PictureVillian As System.Windows.Forms.PictureBox
+    Friend WithEvents Timer2 As System.Windows.Forms.Timer
 
 End Class

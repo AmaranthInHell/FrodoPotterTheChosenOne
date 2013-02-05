@@ -130,19 +130,37 @@
     <None Include="images\lotr_ring_by_hrnclk777-d40ev97.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="images\Back to main menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Controllers.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="images\Controls.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="images\Quit.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="images\Restart.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="images\Resume.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\Back to main menu.png" />
+    <None Include="images\Back to main menu _edited.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\Restart.png" />
+    <None Include="images\Resume_Edited.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Controls_edited.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Restart_edited.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\quit_edited.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
